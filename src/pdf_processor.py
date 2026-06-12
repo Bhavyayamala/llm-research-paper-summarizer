@@ -13,7 +13,7 @@ def extract_text_from_pdf(pdf_path):
 
     return text
 
-pdf_path = "../data/sample_paper.pdf"
+pdf_path = "data/sample_paper.pdf"
 
 raw_text = extract_text_from_pdf(pdf_path)
 
