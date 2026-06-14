@@ -1,15 +1,11 @@
-def split_text(text, chunk_size=1000):
+def split_text(text):
+
+    chunk_size = 500
+    overlap = 100
 
     chunks = []
 
-    for i in range(0, len(text), chunk_size):
+    for i in range(0, len(text), chunk_size - overlap):
         chunks.append(text[i:i + chunk_size])
 
     return chunks
-
-
-sample_text = "Hello " * 1000
-
-chunks = split_text(sample_text)
-
-print("Number of chunks:", len(chunks))
