@@ -123,3 +123,11 @@ websocket-client==1.9.0
 websockets==16.0
 Werkzeug==3.1.6
 yarl==1.24.2
+streamlit
+pymupdf
+transformers
+torch
+sentence-transformers
+chromadb
+huggingface-hub
+numpy
